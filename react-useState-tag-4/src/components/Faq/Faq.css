@@ -1,0 +1,21 @@
+.faq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.faq__oben {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__drop-down{
+    display: none;
+    justify-content: space-between;
+}
+
+.displayed {
+    border-top: 1px solid black;
+    display: flex;
+}
